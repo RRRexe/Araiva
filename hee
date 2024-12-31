@@ -1,6 +1,4 @@
--[[
-    Src AutoFisch Script By : ลีซอ
-]]
+
 local Player = game:GetService("Players")
 local LocalPlayer = Player.LocalPlayer
 local Char = LocalPlayer.Character
