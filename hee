@@ -16,9 +16,9 @@ end
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("ลีซอ HUB", "DarkTheme")
-local Tab = Window:NewTab("อ่านทำคไร")
-local Section = Tab:NewSection("กดสิอ่านทำควไร")
+local Window = Library.CreateLib("ควยยุทธ HUB", "DarkTheme")
+local Tab = Window:NewTab("อ่านทำควยไร")
+local Section = Tab:NewSection("กดสิอ่านทำควยไร")
 
 -- AutoCast
 Section:NewToggle("AutoCast", "", function(v)
