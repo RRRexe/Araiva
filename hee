@@ -18,7 +18,7 @@ end
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("ควยยุทธ HUB", "DarkTheme")
+local Window = Library.CreateLib("ss HUB", "DarkTheme")
 local Tab = Window:NewTab("อ่านทำควยไร")
 local Section = Tab:NewSection("กดสิอ่านทำควยไร")
 
@@ -26,7 +26,7 @@ local Section = Tab:NewSection("กดสิอ่านทำควยไร")
 Section:NewToggle("AutoCast", "", function(v)
 _G.AutoCast = v
      pcall(function()
-while _G.AutoCast do wait(3)
+while _G.AutoCast do wait()
     local Rod = Char:FindFirstChildOfClass("Tool")
                 task.wait(.1)
                     Rod.events.cast:FireServer(100,1)
