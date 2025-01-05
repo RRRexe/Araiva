@@ -8,6 +8,8 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local GuiService = game:GetService("GuiService")
 
 equipitem = function(v)
+_G.equipitem do wait()
+              task.wait(2)
 if LocalPlayer.Backpack:FindFirstChild(v) then
     local a = LocalPlayer.Backpack:FindFirstChild(v)
         Humanoid:EquipTool(a)
