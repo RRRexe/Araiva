@@ -24,7 +24,7 @@ local Section = Tab:NewSection("กดสิอ่านทำควยไร")
 Section:NewToggle("AutoCast", "", function(v)
 _G.AutoCast = v
      pcall(function()
-while _G.AutoCast do wait()
+while _G.AutoCast do wait(3)
     local Rod = Char:FindFirstChildOfClass("Tool")
                 task.wait(.1)
                     Rod.events.cast:FireServer(100,1)
